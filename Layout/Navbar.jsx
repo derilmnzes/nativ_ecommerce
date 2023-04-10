@@ -1,5 +1,5 @@
 import { Stack } from "expo-router";
-import { View, Text } from "react-native";
+import { View, Text, Image } from "react-native";
 import { AntDesign, Entypo } from "@expo/vector-icons";
 
 const NavBar = () => {
@@ -13,9 +13,9 @@ const NavBar = () => {
          <Entypo name="shopping-cart" size={24} color="black" />
          <AntDesign name="menufold" size={24} color="black" />
       </View>,
-      headerTitle: "",
+    
       headerLeft:()=> <View>
-        <Text style={{fontSize:24,fontWeight:'bold'}}>Logo</Text>
+        <Image style={{width:140,resizeMode:'contain',height:40}} source={require('../assets/logo/logo.png')} />
       </View>
     }}
   />

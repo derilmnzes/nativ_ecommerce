@@ -1,0 +1,19 @@
+import { createSlice } from "@reduxjs/toolkit";
+import axios from "axios";
+
+const initialState = {
+  loading: false,
+};
+
+export const loadingSlice = createSlice({
+  name: "loading",
+  initialState,
+  reducers: {
+    setLoading: (state, action) => {
+      state.loading = action.payload;
+    },
+  },
+});
+
+// Action creators are generated for each case reducer function
+export const { setLoading } = loadingSlice.actions;
