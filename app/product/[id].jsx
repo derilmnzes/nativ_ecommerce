@@ -23,7 +23,6 @@ const Product = () => {
 
   return (
     <>
-    {console.log(product)}
     <ScrollView>
       <SafeAreaView>
         <View style={styles.container}>

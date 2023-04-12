@@ -18,7 +18,7 @@ const Card = ({ item, router }) => {
           />
         </View>
         <View style={styles.ratingContainer}>
-            {console.log()}
+      
           {Array(Math.ceil(item.rating.rate))
             .fill()
             .map((_, index) => (

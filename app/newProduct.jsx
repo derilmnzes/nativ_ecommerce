@@ -58,13 +58,14 @@ const NewProduct = () => {
       });
 
       if (!result.canceled) {
+        
         const formData = new FormData();
         formData.append("image", {
           uri: result.assets[0].uri,
           type: "image/jpeg",
           name: "image.jpg",
         });
-
+        console.log(formData)
         const res = await axios.post(
           `${baseUrl.baseUrl}/product/upload/image`,
           formData,
@@ -75,10 +76,12 @@ const NewProduct = () => {
           }
         );
 
+        console.log(res.data)
         setProduct({ ...product, image: res.data.data });
       }
     } catch (err) {
-    ToastAndroid.show(err.response.data.message,ToastAndroid.SHORT)
+      
+    ToastAndroid.show('Something went wrong please try again',ToastAndroid.SHORT)
     }
   };
 

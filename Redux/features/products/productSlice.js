@@ -45,7 +45,7 @@ export const fetchProducts = (amount) => async (dispatch) => {
   try {
     dispatch(setLoading(true));
     const res = await axiosInstance.get("/product/get/all");
-    console.log(res);
+
     dispatch(setProducts(res.data.data));
     dispatch(setLoading(false));
   } catch (err) {}
