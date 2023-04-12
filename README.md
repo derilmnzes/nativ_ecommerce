@@ -24,12 +24,6 @@ Follow the steps below to get started with the project:
 7. Run the app on the virtual device: Once the virtual device is created, you can run the app on the virtual device by selecting it in the Android Studio AVD Manager and clicking on the "Play" button.
 8. Scan the QR code with Expo Go app: On the Expo development server, a QR code will be displayed. Scan this QR code with the Expo Go app on your physical device, or follow the instructions in the Expo documentation (https://docs.expo.dev/get-started/installation/#2-expo-go-app-for-ios-and) to run the app on an iOS or Android device.
 
-## Installing npm Packages
-
-If you need to install additional npm packages for the project, you can do so using the following command:
-
-```bash
-npm install [package-name]
 
 Make sure to restart the Expo development server after installing new packages by stopping it and running expo start again.
 
@@ -50,6 +44,21 @@ This project is open-source and available under the MIT License.
 
 Contact
 If you have any questions or need further
+
+
+
+
+
+
+## Installing npm Packages
+
+If you need to install additional npm packages for the project, you can do so using the following command:
+
+```bash
+npm install [package-name]```
+
+
+
 
 
 
