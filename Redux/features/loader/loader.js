@@ -15,5 +15,4 @@ export const loadingSlice = createSlice({
   },
 });
 
-// Action creators are generated for each case reducer function
 export const { setLoading } = loadingSlice.actions;

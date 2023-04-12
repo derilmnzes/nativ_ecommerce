@@ -12,11 +12,8 @@ const Layout = () => {
   return (
     <>
      <Provider store={store}>
-     <Stack screenOptions={{
-      title:"",
-      headerLeft:()=> <View>
-      <Image style={{width:140,resizeMode:'contain',height:40}} source={require('../assets/logo/logo.png')} />
-    </View>
+     <Stack  screenOptions={{
+      title:''
      }} />
      </Provider>
     </>

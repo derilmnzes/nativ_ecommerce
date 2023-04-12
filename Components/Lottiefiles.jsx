@@ -15,7 +15,6 @@ export default function LottieAnimation({source,height,width}) {
           height:height,
           backgroundColor: '#eee',
         }}
-        // Find more Lottie files at https://lottiefiles.com/featured
         source={source}
       />
     </View>
