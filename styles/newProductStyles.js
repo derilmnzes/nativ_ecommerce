@@ -1,4 +1,8 @@
-const styles = StyleSheet.create({
+
+const screenWidth = Dimensions.get("window").width;
+const screenHeight = Dimensions.get("window").height;
+
+export const styles = StyleSheet.create({
     container: {
       flex: 1,
       justifyContent: "center",

@@ -23,9 +23,10 @@ import { addProduct } from "../Redux/features/products/productSlice";
 import { useEffect } from "react";
 import { useRouter } from "expo-router";
 import baseUrl from "../config/baseUrl";
+import { styles } from "../styles/newProductStyles";
 
-const screenWidth = Dimensions.get("window").width;
-const screenHeight = Dimensions.get("window").height;
+
+
 
 const NewProduct = () => {
   const dispatch = useDispatch();
