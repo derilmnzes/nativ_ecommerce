@@ -30,3 +30,28 @@ If you need to install additional npm packages for the project, you can do so us
 
 ```bash
 npm install [package-name]
+
+Make sure to restart the Expo development server after installing new packages by stopping it and running expo start again.
+
+Installing the Server Locally
+If you want to install and run the server locally, you can follow these steps:
+
+Clone the server repository to your local machine: git clone https://github.com/derilmnzes/native_ecommerce_server.
+Navigate to the server directory: cd native_ecommerce_server.
+Install the dependencies: npm install.
+Start the server: npm start.
+Note: The server requires MongoDB to be installed and running on your local machine. You can download and install MongoDB from the official MongoDB website (https://www.mongodb.com/).
+
+Contributing
+If you'd like to contribute to this project, please follow the contribution guidelines and code of conduct outlined in the CONTRIBUTING.md file.
+
+License
+This project is open-source and available under the MIT License.
+
+Contact
+If you have any questions or need further
+
+
+
+
+
